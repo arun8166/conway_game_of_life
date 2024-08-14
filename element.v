@@ -45,8 +45,8 @@ module element(input clk,input reset,input start,input [7:0] local,output reg li
 				end
 				3'b111: begin
 				    if(!done) begin
-                        if(sum == 2'd3) live <= 1;
-                        if(sum < 2'd2) live <= 0;
+                        		if(sum == 2'd3) live <= 1;
+                        		if(sum < 2'd2) live <= 0;
 				    end
 				    else live <= 0;
 				    state <= 3'b001;
