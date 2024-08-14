@@ -11,7 +11,7 @@ module element(input clk,input reset,input start,input [7:0] local,output reg li
 			case(state)
 				3'b000: begin
 				    live <= start;
-					state <= 3'b001;
+				    state <= 3'b001;
 				end
 				3'b001: begin
 				    done <= 0;
