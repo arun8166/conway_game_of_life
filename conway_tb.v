@@ -7,7 +7,7 @@ module conway_tb();
     reg reset;
     reg [N*N-1:0] first;
     wire [N*N-1:0] cells;
-    wire [N-1:0] wcells [N-1:0];
+    wire [N-1:0] wcells ;
     
     genvar i;
     generate
